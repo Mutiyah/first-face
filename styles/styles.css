@@ -1,0 +1,387 @@
+body{
+    background-color: white;
+}
+
+/* navigation section */
+.logo-img{
+    width: 70px;
+    height: 50px;
+    margin-left: 30px;  
+}
+.links{
+    padding-right: 30px;
+    font-size: 1.1em;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+
+/* carousel section */
+#carouselExampleFade{
+    padding: 0px;
+}
+.carousel-can{
+ width: 100%;
+ height: 500px;
+ position: relative;
+}
+.carousel-image{
+    width: 100%;
+    height: 100%;
+}
+.slide-header{
+    top: 180px;
+    left: 450px;
+}
+.carousel-header{
+    top: 200px;
+    left: 450px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+.slide-header-4{
+    color: black !important;
+}
+
+/* policy section */
+#policy-section{
+    background-color: rgb(158, 111, 202);
+}
+.policy{
+    padding: 50px;
+    line-height: 28px;
+    color: white;
+}
+#our-policy-header{
+    font-weight: bold;
+    font-size: 3.5em;
+}
+#policy-image{
+   width: 90%;
+   height: 90%;
+   margin-top: 20px;
+}
+#learn-more{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+#learn-more:hover{
+    color: black;
+    text-decoration: none;
+}
+/* what we do section */
+#what-we-do{
+    background-color: rgba(158, 111, 225, 0.3);
+    padding: 0px, 80px, 0px, 220px;
+}
+
+.things-we-do{
+  padding-top: 90px ;
+}
+.faz > i{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    font-size: 2em;
+}
+
+#info{
+    padding-top: 20px;
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.contact{
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    left: 60px;
+}
+.mail{
+    top: 80px;
+}
+.number{
+    top:170px;
+}
+.address{
+    color: white;
+    font-size: 1.1em;
+    top: 250px;
+}
+.fas{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    color: white;
+    font-size: 1.8em;
+    margin-left: 2px;
+}
+.fa-phone-alt{
+    color: white;
+    font-size: 1.8em;
+    margin-left: 2px;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+}
+
+
+.fa-map-marker-alt{
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    color: white;
+    font-size: 2em;
+    margin-left: 2px;
+}
+
+/* our customers section */
+.item5{
+    height: 1000px;
+}
+#customers{
+    height: 1000px;
+}
+#our-customers{
+    display: grid;
+    grid-template-areas:   "prod1 prod2 prod3 prod4 prod5"
+                          "prod1 prod6 prod3 prod7 prod5"
+                          "prod8 prod8 prod9 prod10 prod10 "
+                          "prod11 prod12 prod13 prod14 prod15" ;
+    grid-gap: 10px;
+}
+#our-works{
+    color: navy;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.prod{
+    width:100%;
+    height: 100%;
+}
+.prod11{
+    grid-area: prod1;
+}
+.prod22{
+    grid-area: prod2;
+}
+.prod33{
+    grid-area: prod3;
+}
+.prod44{
+    grid-area: prod4;
+}
+.prod55{
+    grid-area: prod5;
+}
+.prod66{
+    grid-area: prod6;
+}
+.prod77{
+    grid-area: prod7;
+}
+.prod88{
+    grid-area: prod8;
+}
+.prod99{
+    grid-area: prod9;
+}
+.prod110{
+    grid-area: prod10;
+}
+.prod111{
+    grid-area: prod11;
+}
+.prod112{
+    grid-area: prod12;
+}
+.prod113{
+    grid-area: prod13;
+}
+.prod114{
+    grid-area: prod14;
+}
+.prod115{
+    grid-area: prod15;
+}
+.prod116{
+    grid-area: prod16;
+}
+#our-customers > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 182, 245);
+}
+
+/* Our Solutions section */
+#our-solutions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+   
+}
+#see-more{
+    font-size: 25px;
+}
+/* footer section */
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-template-rows: 450px;
+}
+#large-footer{
+    position: relative;
+}
+#footer-img{
+    width: 100%;
+    height: 100%;
+}
+#footer-cover{
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#small-footer{
+    position: relative;
+    background-color: rgb(35, 35, 117);
+}
+.contact{ 
+    position: absolute;
+    margin: 0px;
+    left: 80px;
+    top: 95px;
+    margin-top: 3px;
+    color: white;
+    font-size: 1.2em;
+}
+.fas{
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    color: white;
+    font-size: 2.7em;
+    margin-left: 2px;
+}
+.fa-phone{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    color: white;
+    font-size: 2.2em;
+    margin-left: 8px;
+}
+.number{
+    position: absolute;
+    top: 200px;
+}
+#info{ 
+    margin-top: 15px;
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.fa-map-marker-alt{
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    color: white;
+    font: 2.2em;
+    margin-left: 10px;
+}
+.address{
+    position: absolute;
+    top: 305px;
+    color: white;
+    left: 80px;
+    font-size: 1.1em;
+}
+/* large footer */ 
+.fab{
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 3.2em;
+}
+.follow-us{
+    color: rgb(35, 35, 117);
+    margin: 18px 0px 10px 17px;
+}
+.head{
+    text-decoration: underline ;
+    font-size: 25px;
+    font-weight: bold;
+}
+#quick-links{
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 200px;
+}
+
+#quick-links a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 500;
+}
+#quick-links a:hover{
+    color: red;
+}
+.google-map{
+    margin-top: 20px;
+}
+
+/* media query section */
+@media screen and (max-width: 700px){
+    #our-customers{
+        display: grid;
+        grid-template-areas:"prod1 prod2 prod3"
+                            "prod1 prod4 prod3"
+                            "prod5 prod5 prod6"
+                            "prod7 prod8 prod6"
+                            "prod9 prod9 prod10"
+                            "prod11 prod12 prod13"
+                            "prod14 prod15 prod15" ;
+        grid-gap: 5px;
+    }
+}
+@media screen and (max-width: 400px){
+    #our-customers{
+        display: grid;
+        grid-template-areas: "prod1 prod2"
+                             "prod1 prod3"
+                             "prod4 prod5"
+                             "prod6 prod5"
+                             "prod6 prod7"
+                             "prod8 prod9"
+                             "prod10 prod11"
+                             "prod10 prod12"
+                             "prod13 prod12"
+                             "prod13 prod14"
+                             "prod15 prod14";
+        grid-gap: 5px;
+    }
+}
+/* @media screen and (max-width: 700px){
+    #footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 450px 450px;
+    }
+    #footer-cover{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #small-footer{
+        width: 50%;
+    }
+} */
